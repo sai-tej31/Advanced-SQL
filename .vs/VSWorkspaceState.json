@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Stored_procedure",
+    "\\Triggers",
+    "\\Views"
   ],
+  "SelectedNode": "\\Triggers\\after_delete.sql",
   "PreviewInSolutionExplorer": false
 }
