@@ -14,21 +14,21 @@ There are several types of indexes like clustered index, non-clustered index, un
 
 - **Clustered Index:**
 
-- - Sorts the data in the table based on indexed column(s).
-- - A table can have atmost one clustered index, usually applied to primary key column(s) of the table.
+    - Sorts the data in the table based on indexed column(s).
+    - A table can have atmost one clustered index, usually applied to primary key column(s) of the table.
 
 
 - **Non-clustered Index:**
 
-- - Creates a separate list of indexed data, and does not impact physical data order of the table.
-- - There can be multiple non-clustered indexes for multiple columns within the same table.
+    - Creates a separate list of indexed data, and does not impact physical data order of the table.
+    - There can be multiple non-clustered indexes for multiple columns within the same table.
 
 ### Additional
-- - If the table has a clustered index, then non-clustered index locate to the clustered index key, else index locates to the row from the table. 
-- - Clustered index is faster than Non-clustered index.
-- - Both Clustered and non-clustered index can be unique.
-- - All the columns queried present in the index (composite index), returns directly from index without looking at the table, it is called **covering query**.
-- - Query on clustered index always is a covering query.
+    - If the table has a clustered index, then non-clustered index locate to the clustered index key, else index locates to the row from the table. 
+    - Clustered index is faster than Non-clustered index.
+    - Both Clustered and non-clustered index can be unique.
+    - All the columns queried present in the index (composite index), returns directly from index without looking at the table, it is called **covering query**.
+    - Query on clustered index always is a covering query.
 
 
 ### Advantages
